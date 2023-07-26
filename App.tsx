@@ -1,8 +1,11 @@
 import React from 'react';
-import {CalculatorScreen} from './src/screens/CalculatorScreen';
+import CalculatorScreen from './src/screens/CalculatorScreen';
 
 const App = () => {
-  return <CalculatorScreen />;
+  return (
+
+  <CalculatorScreen />
+  )
 };
 
 export default App;
