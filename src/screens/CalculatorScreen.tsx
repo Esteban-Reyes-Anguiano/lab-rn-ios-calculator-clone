@@ -4,8 +4,8 @@ import { View, Text, StyleSheet, TouchableOpacityComponent } from 'react-native'
 import Button from '../components/Button';
 import Display from '../components/Display';
 
-import { colors } from '../utils/colors';
-import { sumar, restar, multiplicar, dividir } from '../utils/operaciones';
+import { colors } from '../styles/colors';
+import { sumar, restar, multiplicar, dividir } from '../functions/operaciones';
 
 let num1: number;
 let num2: number;
